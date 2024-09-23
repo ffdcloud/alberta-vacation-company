@@ -9,21 +9,48 @@
         <p>Discover the best experiences Alberta has to offer. Check out our packages below.</p>
     </header>
 
-    <img src="images/alberta-vacation.jpg" alt="Alberta Vacation">
+    <div class="container-second-page">
+        <div class="column">
+            <section class="packages">
+                <h2>Choose Your Adventure</h2>
 
-    <section class="packages">
-        <h2>Choose Your Adventure</h2>
-        <ul>
-            <li>Banff Adventure Package</li>
-            <li>Jasper National Park Tour</li>
-            <li>Lake Louise Getaway</li>
-            <li>Rocky Mountains Hiking Experience</li>
-        </ul>
-    </section>
+                <h4>
+                    Experience the rich and diverse cultures of Alberta through our specially curated vacation packages. 
+                    From the indigenous heritage of the First Nations to the vibrant local communities, each package offers a unique cultural journey that will leave you and your family in awe.
+                </h4>
 
-    <section class="navigation">
-        <a href="index.html" class="button">Back to Home</a>
-    </section>
+                <ul>
+                    <li>Banff Adventure Package (150$)</li>
+                    <li>Jasper National Park Tour (80$)</li>
+                    <li>Lake Louise Getaway (200$)</li>
+                    <li>Rocky Mountains Hiking Experience (250$)</li>
+                </ul>
+            </section>
+    
+            <section class="navigation">
+                <a href="index.html" class="button">Back to Home</a>
+            </section>
+        </div>
+    
+        <div class="column">
+            <section class="enquiry-form">
+                <h2>Send us a message</h2>
+                <form action="mailto:f.delacruz6852@mybvc.ca" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                    </div>
+                    
+                    <input type="submit" value="Send">
+                </form>
+            </section>
+        </div>
+    </div>
 
     <footer>
         <p>Contact Us Today to Start Your Adventure!</p>
